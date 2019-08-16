@@ -77,3 +77,15 @@ button:hover:before, button:focus:before, button:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+#npm {
+    position: absolute;
+    bottom: 13vw;
+}
+#npm p {
+    margin-bottom: 10px;
+}
+.mono {
+    font-family: monospace;
+    font-size: 1.4em;
+}
