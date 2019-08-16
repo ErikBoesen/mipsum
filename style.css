@@ -80,10 +80,24 @@ button:hover:before, button:focus:before, button:active:before {
 
 #npm {
     position: absolute;
-    bottom: 13vw;
+    bottom: 11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #npm p {
     margin-bottom: 10px;
+}
+p.light {
+    color: white;
+    width: 16vw;
+}
+p img {
+    height: 1.2em;
+    margin-bottom: -3px;
+}
+a {
+    color: inherit;
 }
 .mono {
     font-family: monospace;
