@@ -24,21 +24,21 @@ function punctuation() {
 const sentence = function() {
     let count = Math.floor(Math.random() * 9);
     // Add root word
-    let string = capitalize(exports.word());
-    for (let word = 0; word < count; word++) {
+    let string = capitalize(word());
+    for (let w = 0; w < count; w++) {
         if (Math.random() < 0.2) {
             string += ","
         }
-        string += " " + exports.word();
+        string += " " + word();
     }
     string += punctuation();
     return string;
 };
 
 const paragraph = function(sentences = 8) {
-    paragraph = exports.sentence();
-    for (let sentence = 1; sentence < sentences; sentence++) {
-        paragraph += " " + exports.sentence();
+    let text = sentence();
+    for (let s = 1; s < sentences; s++) {
+        text += " " + sentence();
     }
-    return paragraph;
+    return text;
 }

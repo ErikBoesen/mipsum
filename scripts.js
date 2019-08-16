@@ -5,9 +5,9 @@ document.getElementById('word').onclick = function() {
 };
 
 document.getElementById('sentence').onclick = function() {
-    output.textContent = word();
+    output.textContent = sentence();
 };
 
 document.getElementById('paragraph').onclick = function() {
-    output.textContent = word();
+    output.textContent = paragraph();
 };
