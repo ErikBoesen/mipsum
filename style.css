@@ -26,7 +26,6 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 100px;
 }
 h1 {
 }
@@ -34,7 +33,7 @@ h1 {
     margin: 20px;
 }
 #output {
-    width: 7in;
+    width: 10in;
     font-size: 25px;
 }
 
